@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!--SACRAMENTO FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <title>Document</title>
+  </head>
+  <body>
+    <!--PRIMO ESERCIZIO-->
+    <div id="card1">
+      <h1>Inserisci due numeri:</h1>
+      <input type="text" id="input1-card1" placeholder="Insert your number...">
+      <input type="text" id="input2-card1" placeholder="Insert your number...">
+      <div class="container-button">
+        <button id="button-card1" onclick="trovaMaggiore()">Cliccami &#128513 </button>
+      </div>
+      <div id="risultato"></div> 
+    </div>
+    <hr>
+     <!--/PRIMO ESERCIZIO-->
+     <!--ESERCIZIO SUGLI SCONTI-->
+     <div id="card2">
+      <h1>Calcola la Promozione</h1>
+      <p>Inserisci l'importo del tuo carrello:</p>
+      
+      <input type="number" id="totalShoppingCart" placeholder="Inserisci importo...">
+      
+      <button id="button-card2" onclick="myPromozione()">Calcola la tua promozione &#128521 </button>
+      
+      <p id="result"></p> 
+    </div>
+     <!--/ESERCIZIO SUGLI SCONTI-->
+    <script src="S2P1-scaricabile.js" />
+  </body>
+</html>

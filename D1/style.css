@@ -1,0 +1,120 @@
+hr{
+    border-style: dotted;
+    width: 700px;
+    border-color: blueviolet;
+}
+/*STYLE PRIMO ESERCIZIO*/
+#card1{
+    font-family: sans-serif;
+    background-color: #E5D9F2 ;
+    position: relative;
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: auto;
+    margin-block: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+
+}
+
+#card1:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+#card1 h1{
+    font-family: sacramento;
+    text-align: center;
+    color: #8967B3;
+}
+
+#input1-card1{
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+
+#input2-card1{
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+ #button-card1{
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #F5F5F7;
+    color: #624E88;
+    cursor: pointer;
+    border-style: none;
+}
+
+ #button-card1:hover{
+    background-color: #CDC1FF;
+}
+
+#risultato{
+    font-family: sans-serif;
+    color: #624E88;
+    margin-top: 10px;
+}
+/*/STYLE PRIMO ESERCIZIO*/
+
+/*STYLE ESERCIZIO PROMOZIONI*/
+#card2{
+    font-family: sans-serif;
+    background-color: #27005D ;
+    position: relative;
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: auto;
+    margin-block: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+#card2 h1{
+    font-family: sacramento;
+    text-align: center;
+    color: #F7F9F2;
+}
+
+#card2 p{
+    font-family: sans-serif;
+    color: #F6F5F2;
+}
+
+input{
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+#button-card2{
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #E4F1FF;
+    color: #27005D;
+    cursor: pointer;
+    border-style: none;
+}
+
+ #button-card2:hover{
+    background-color: #F6F5F2;
+}
+/*/STYLE ESERCIZIO PROMOZIONI*/
